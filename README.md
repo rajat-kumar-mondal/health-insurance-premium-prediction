@@ -88,19 +88,30 @@ The project utilizes the following key libraries:
 
 ## 🤖 Model Training & Evaluation
 The model was trained with various techniques to improve prediction accuracy:
-- **Data Preprocessing:**
-  - Handling missing values through imputation strategies.
-  - Encoding categorical variables using one-hot encoding.
-  - Feature scaling with **MinMaxScaler**.
-  - Removing multicollinearity using **Variance Inflation Factor (VIF)**.
+### 1️⃣ Data Preprocessing
+- Handling missing values through imputation strategies.
+- Encoding categorical variables using one-hot encoding.
+- Feature scaling with **MinMaxScaler**.
+- Removing multicollinearity using **Variance Inflation Factor (VIF)**.
   - **Data Segmentation**
     - Data segmentation for precise model building and error reduction.
-- **Model Development:**
+      
+### 2️⃣ Model Development
   - Models trained separately for:
     - **Young individuals (Age <= 25)**
     - **Rest population (Age > 25)**
     - **Both groups with genetic risk considerations**
-- **Model Evaluation Metrices:**
+      
+### 3️⃣ Model Selection
+Three machine learning models were trained and compared:
+- **Linear Regression**: A simple regression model for predicting continuous values.
+- **Ridge Regression**: A regression method that introduces regularization to reduce overfitting and improve model generalization.
+- **XGBoost Regression**: An optimized gradient boosting algorithm designed for speed and performance.
+
+### 4️⃣ Hyperparameter Tuning
+- **RandomizedSearchCV** was applied to refine model parameters.
+
+### 5️⃣ Model Evaluation Metrices
   - **Accuracy**
   - **Mean Squared Error (MSE)**
   - **Root Mean Squared Error (RMSE)**
