@@ -63,6 +63,7 @@ streamlit run app/main.py
 ```
 
 ## 📊 Dataset
+The project uses multiple datasets (containing 50K records), to analyze customer profiles and predict health insurance cost:
 - **`premiums.csv`**: Core dataset containing customer demographics and premium values
 - **`segmented_data/`**: Segmented data for improved model efficiency and reduce error
 - **`more_data_with_genetic_risk/`**: Extended dataset with genetic risk feature
