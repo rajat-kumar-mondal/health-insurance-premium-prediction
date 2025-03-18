@@ -105,7 +105,7 @@ The model was trained with various techniques to improve prediction accuracy:
   - **Mean Squared Error (MSE)**
   - **Root Mean Squared Error (RMSE)**
 
-## 📈 Performance of the Best Model (i.e., XGBoost)
+## 📈 Performance of the best model (i.e., XGBoost)
 - **Young Model:**
   - **Accuracy:** 98.76%
   - **MSE:** 93545.52
