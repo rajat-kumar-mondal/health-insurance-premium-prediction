@@ -1,10 +1,10 @@
 import pandas as pd
 import joblib
 
-model_young = joblib.load("../artifacts/model_young.joblib")
-model_rest = joblib.load("../artifacts/model_rest.joblib")
-scaler_young = joblib.load("../artifacts/scaler_young.joblib")
-scaler_rest = joblib.load("../artifacts/scaler_rest.joblib")
+model_young = joblib.load("artifacts/model_young.joblib")
+model_rest = joblib.load("artifacts/model_rest.joblib")
+scaler_young = joblib.load("artifacts/scaler_young.joblib")
+scaler_rest = joblib.load("artifacts/scaler_rest.joblib")
 
 def normalized_risk(medical_history):
     risk_scores = {"diabetes": 6, "heart disease": 8, "high blood pressure": 6, "thyroid": 5, "no disease": 0, "none": 0}
