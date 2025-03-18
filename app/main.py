@@ -1,7 +1,7 @@
 import streamlit as st
 from predictior import predict
 
-st.set_page_config(page_title="Health Insurance Predictor", page_icon="🛡️", layout="wide")  # Set full-screen layout with title and icon
+st.set_page_config(page_title="Health Insurance Cost Predictor", page_icon="🛡️", layout="wide")  # Set full-screen layout with title and icon
 st.title('🛡️ Health Insurance Cost Predictor')
 st.markdown('#')
 
