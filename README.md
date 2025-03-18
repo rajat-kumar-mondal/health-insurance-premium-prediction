@@ -48,7 +48,7 @@ data/
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/health-insurance-premium-prediction.git
+git clone https://github.com/rajat-kumar-mondal/health-insurance-premium-prediction.git
 cd health-insurance-premium-prediction
 ```
 
